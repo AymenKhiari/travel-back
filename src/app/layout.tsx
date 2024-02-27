@@ -9,6 +9,7 @@ import { siteConfig } from '@/config/site.config';
 import { inter, lexendDeca } from '@/app/fonts';
 import cn from '@/utils/class-names';
 import NextProgress from '@/components/next-progress';
+import { Analytics } from '@vercel/analytics/react';
 
 // styles
 import '@/app/globals.css';
@@ -40,6 +41,7 @@ export default async function RootLayout({
           <ThemeProvider>
             <NextProgress />
             {children}
+            <Analytics />
             <Toaster />
             <GlobalDrawer />
             <GlobalModal />

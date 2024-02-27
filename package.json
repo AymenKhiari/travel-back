@@ -40,6 +40,7 @@
     "@t3-oss/env-nextjs": "^0.8.0",
     "@tailwindcss/container-queries": "^0.1.1",
     "@uploadthing/react": "^6.2.2",
+    "@vercel/analytics": "^1.2.2",
     "clsx": "^2.1.0",
     "date-arithmetic": "^4.1.0",
     "dayjs": "^1.11.10",
